@@ -1,0 +1,14 @@
+# datasets.yml
+- name: marketing
+  description: >-
+    Tables containing marketing funnel and campaign performance
+    metrics ingested from GA4, HubSpot and Facebook Ads.
+
+# tables/project.dataset.table.yml
+description: >
+  Hourly aggregated web-analytics events.
+columns:
+  - name: event_timestamp
+    description: Event time in microseconds since epoch
+  - name: page_url
+    description: Requested URL
